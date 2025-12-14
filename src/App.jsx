@@ -1,6 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { ArrowUpDown, Filter } from 'lucide-react';
 
+
 const ICPScoringModel = () => {
   const [sortConfig, setSortConfig] = useState({ key: 'totalScore', direction: 'desc' });
   const [filterPlatform, setFilterPlatform] = useState('all');
